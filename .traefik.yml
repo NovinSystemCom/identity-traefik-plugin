@@ -1,0 +1,19 @@
+# Traefik plugin metadata
+displayName: Identity Management Plugin
+type: middleware
+import: git.novin-tools.com/devops/traefik-identity-plugin
+
+summary: 'JWT-based identity management with security stamp enforcement and environment-aware routing'
+
+testData:
+  httpTimeoutSeconds: 5
+  jwtSecretKey: YourSuperSecretKeyThatIsAtLeast32CharactersLong
+  environmentServices:
+    "*.novin-system.com": "https://api.identity.novin-system.com/api/v1/auth/validate-token"
+    "*.novin-stage.com": "https://api.identity.novin-stage.com/api/v1/auth/validate-token"
+  defaultIdentityServiceURL: "https://api.identity.novin-system.com/api/v1/auth/validate-token"
+  productionDomains:
+    - "*.novin-system.com"
+  stagingDomains:
+    - "*.novin-stage.com"
+    
