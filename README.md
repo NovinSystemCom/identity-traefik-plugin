@@ -35,7 +35,7 @@ The plugin supports both environment-aware and legacy configuration modes:
 experimental:
   plugins:
     identity:
-      moduleName: git.novin-tools.com/devops/traefik-identity-plugin
+      moduleName: github.com/NovinSystemCom/identity-traefik-plugin
       version: v1.0.0
 
 # Dynamic configuration
