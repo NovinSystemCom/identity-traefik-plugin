@@ -1,4 +1,4 @@
-module git.novin-tools.com/devops/traefik-identity-plugin
+module github.com/NovinSystemCom/identity-traefik-plugin
 
 go 1.21
 
