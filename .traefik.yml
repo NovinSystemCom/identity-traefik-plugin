@@ -1,7 +1,7 @@
 # Traefik plugin metadata
 displayName: Identity Management Plugin
 type: middleware
-import: git.novin-tools.com/devops/traefik-identity-plugin
+import: github.com/NovinSystemCom/identity-traefik-plugin
 
 summary: 'JWT-based identity management with security stamp enforcement and environment-aware routing'
 
