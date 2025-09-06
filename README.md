@@ -1,5 +1,6 @@
 # Traefik Identity Plugin
 
+
 A Traefik middleware plugin for JWT-based identity management with security stamp enforcement and environment-aware identity service routing.
 
 ## Features
