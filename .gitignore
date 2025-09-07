@@ -16,7 +16,7 @@ coverage.html
 go.work
 
 # Dependency directories
-vendor/
+# vendor/
 
 # IDE files
 .vscode/

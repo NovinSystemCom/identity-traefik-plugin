@@ -15,7 +15,7 @@ services:
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
       - "--entrypoints.web.address=:80"
-      - "--experimental.plugins.identity.modulename=git.novin-tools.com/devops/traefik-identity-plugin"
+      - "--experimental.plugins.identity.modulename=github.com/NovinSystemCom/identity-traefik-plugin"
       - "--experimental.plugins.identity.version=v1.0.0"
     ports:
       - "80:80"
@@ -66,7 +66,7 @@ providers:
 experimental:
   plugins:
     identity:
-      moduleName: git.novin-tools.com/devops/traefik-identity-plugin
+      moduleName: github.com/NovinSystemCom/identity-traefik-plugin
       version: v1.0.0
 
 certificatesResolvers:

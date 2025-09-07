@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	plugin "git.novin-tools.com/devops/traefik-identity-plugin"
+	plugin "github.com/NovinSystemCom/identity-traefik-plugin"
 	"github.com/golang-jwt/jwt/v5"
 )
 
