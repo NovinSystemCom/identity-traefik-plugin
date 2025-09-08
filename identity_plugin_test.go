@@ -1,4 +1,4 @@
-package traefik_identity_plugin_test
+package identitytraefikplugin_test
 
 import (
 	"context"

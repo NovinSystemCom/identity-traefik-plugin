@@ -1,4 +1,4 @@
-package traefik_identity_plugin
+package identitytraefikplugin
 
 import (
 	"context"
